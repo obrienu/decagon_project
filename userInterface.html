@@ -108,7 +108,9 @@
           </nav>
         </div>
         <div class="col-md-5 mt-5 generate">
-          <form class="form-group">
+          <form class="">
+            <label class="my-1 mr-2" for="user">User</label>
+            <input type="text" id="user" name="user" ; value="" readonly />
             <label class="my-1 mr-2" for="drop">Card Denomination</label>
             <select class="custom-select my-1 mr-sm-2" id="drop">
               <option selected>Choose Denomination...</option>
@@ -125,6 +127,7 @@
               id="quantity"
               name="quantity"
               placeholder="Input Quantity"
+              required
             />
             <button type="submit" class="btn btn-primary my-1">Submit</button>
           </form>
@@ -148,6 +151,6 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <script src="assets/scripts/interface.js"></script>
+    <script src="./assets/scripts/interface.js"></script>
   </body>
 </html>

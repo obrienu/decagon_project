@@ -37,7 +37,7 @@ $(document).ready(() => {
 
   tabs.on('click', selectItem);
 
-  /* *************Handle Login and Sign up*********** */
+  /* *************Handle Sign up*********** */
   $('#sign-up').on('submit', function(e) {
     e.preventDefault();
 
@@ -59,6 +59,40 @@ $(document).ready(() => {
       },
       error: function(e) {
         $('#notice').html('Staff ID already registered');
+      }
+    });
+  });
+
+  /* *******************Handle Sign In************************* */
+  $('#sign-in').on('submit', function(e) {
+    e.preventDefault();
+
+    $.ajax({
+      url: `http://localhost:3000/profile`,
+      type: 'GET',
+      success: function(data) {
+        let name = $('#sname').val();
+        let id = $('#staff-id2').val();
+        let password = $('#spassword').val();
+        for (let i = 0; i < data.length; i++) {
+          console.log(id, name, password);
+          console.log(data[i]['id'], data[i]['name'], data[i]['password']);
+          if (
+            data[i]['id'] === id &&
+            data[i]['name'] === name &&
+            data[i]['password'] === password
+          ) {
+            let userInfo = {
+              id: data[i]['id']
+            };
+            console.log(userInfo);
+            window.location = '/userInterface.html?name=' + name;
+          }
+        }
+        $('#notice').html('Invalid Login Credential');
+      },
+      error: function(e) {
+        console.log(e);
       }
     });
   });
