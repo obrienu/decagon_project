@@ -41,14 +41,43 @@
       "validity": true
     }
   ],
-
-  "staffID": ["001", "002", "003", "004", "005"],
+  "staffID": [
+    "001",
+    "002",
+    "003",
+    "004",
+    "005"
+  ],
   "profile": [
     {
+      "id": "001",
       "name": "Shola",
-      "staffID": "001",
       "email": "shola@gmail.com",
       "password": "123456"
+    },
+    {
+      "id": "02",
+      "name": "O'Brien Longe",
+      "email": "obrienules@gmail.com",
+      "password": "232"
+    },
+    {
+      "id": "002",
+      "name": "O'Brien Longe",
+      "email": "obrienules@gmail.com",
+      "password": "sdf"
+    },
+    {
+      "id": "003",
+      "name": "O'Brien Longe",
+      "email": "obrienules@gmail.com",
+      "password": "765"
+    },
+    {
+      "id": "004",
+      "name": "O'Brien Longe",
+      "email": "obrienules@gmail.com",
+      "password": "sddd"
     }
   ]
 }
