@@ -1,8 +1,54 @@
 {
-  "100": ["hello from #100"],
-  "200": ["hello from #200"],
-  "400": ["hello from #400"],
-  "500": ["hello from #500"],
-  "750": ["hello from #750"],
-  "1000": ["hello from #1000"]
+  "100": [
+    {
+      "id": "1",
+      "value": "10012345589954",
+      "validity": true
+    }
+  ],
+  "200": [
+    {
+      "id": "1",
+      "value": "10012345678954",
+      "validity": true
+    }
+  ],
+  "400": [
+    {
+      "id": "1",
+      "value": "1001345678954",
+      "validity": true
+    }
+  ],
+  "500": [
+    {
+      "id": "1",
+      "value": "1003453678954",
+      "validity": true
+    }
+  ],
+  "750": [
+    {
+      "id": "1",
+      "value": "10012345678954",
+      "validity": true
+    }
+  ],
+  "1000": [
+    {
+      "id": "1",
+      "value": "1001235678954",
+      "validity": true
+    }
+  ],
+
+  "staffID": ["001", "002", "003", "004", "005"],
+  "profile": [
+    {
+      "name": "Shola",
+      "staffID": "001",
+      "email": "shola@gmail.com",
+      "password": "123456"
+    }
+  ]
 }
