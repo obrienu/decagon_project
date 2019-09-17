@@ -1,0 +1,76 @@
+body {
+  background-color: rgb(226, 226, 25);
+  color: white;
+}
+#navi {
+  max-height: 8vh;
+}
+
+header div#top-bar {
+  background-color: black;
+  min-height: 5vh;
+  width: 100%;
+}
+
+main {
+  min-height: 80vh;
+}
+
+#bg-img {
+  background: rgb(226, 226, 25) url('../images/background.jpg');
+  background-position: center;
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80vh;
+  clip-path: ellipse(59% 90% at 56% 21%);
+}
+
+.display-3 {
+  color: rgb(252, 252, 252);
+  font-weight: 400;
+  width: 100%;
+  margin-top: 8rem;
+}
+
+.show-tab {
+  cursor: pointer;
+  width: 100%;
+  height: 5rem;
+  background: rgb(151, 151, 25);
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.show-tab:first-child {
+  border-top-left-radius: 20%;
+}
+
+.tab-content {
+  background: rgba(226, 226, 25, 0.411);
+  width: 100%;
+  font-weight: bold;
+  min-height: 25rem;
+  display: none;
+}
+
+#tab-2-content {
+  padding-top: 2rem;
+  min-height: 20rem;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background: rgb(20, 20, 0);
+  min-height: 5vh;
+}
+
+/* Utility */
+.show {
+  display: inline-block;
+}
+
+.selected {
+  border-bottom: white solid 2px;
+}
