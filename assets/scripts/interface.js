@@ -45,7 +45,7 @@ $(document).ready(function() {
     e.preventDefault();
     let quantity = $('#quantity').val();
     let staff = $('#user').val();
-    // let validity = true;
+    let validity = 'Valid';
     let key = $('#drop').val();
 
     for (let i = 0; i < Number(quantity); i++) {
@@ -54,7 +54,7 @@ $(document).ready(function() {
           $.ajax({
             url: `http://localhost:3000/${key}`,
             method: 'POST',
-            data: { num, validity: true, staff },
+            data: { num, validity, staff },
             'Content-Type': 'application / json'
           });
         } catch (error) {
