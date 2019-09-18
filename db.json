@@ -1,758 +1,422 @@
 {
   "100": [
     {
-      "num": "3083344050482804",
-      "validity": "true",
+      "num": "3114556122106244",
+      "validity": "Valid",
       "staff": "Longe",
       "id": 1
     },
     {
-      "num": "3996268974893787",
-      "validity": "true",
+      "num": "3253083352845094",
+      "validity": "Valid",
       "staff": "Longe",
       "id": 2
     },
     {
-      "num": "3057699669701600",
-      "validity": "true",
+      "num": "3165095742722818",
+      "validity": "Valid",
       "staff": "Longe",
       "id": 3
     },
     {
-      "num": "3681218670060213",
-      "validity": "true",
+      "num": "3077863153723734",
+      "validity": "Valid",
       "staff": "Longe",
       "id": 4
     },
     {
-      "num": "3548003970426351",
-      "validity": "true",
+      "num": "3006993558445463",
+      "validity": "Valid",
       "staff": "Longe",
       "id": 5
     },
     {
-      "num": "3948223253078326",
-      "validity": "true",
+      "num": "3637001726139998",
+      "validity": "Valid",
       "staff": "Longe",
       "id": 6
     },
     {
-      "num": "3845718129412218",
-      "validity": "true",
+      "num": "3949011470006159",
+      "validity": "Valid",
       "staff": "Longe",
       "id": 7
     },
     {
-      "num": "3779759400857625",
-      "validity": "true",
+      "num": "3458469263271275",
+      "validity": "Valid",
       "staff": "Longe",
       "id": 8
     },
     {
-      "num": "3172974414280082",
-      "validity": "true",
+      "num": "3265368836559551",
+      "validity": "Valid",
       "staff": "Longe",
       "id": 9
     },
     {
-      "num": "3275245447052305",
-      "validity": "true",
+      "num": "3578828903757146",
+      "validity": "Valid",
       "staff": "Longe",
       "id": 10
     },
     {
-      "num": "3462790290392262",
-      "validity": "true",
+      "num": "3392498667523351",
+      "validity": "Valid",
       "staff": "Longe",
       "id": 11
     },
     {
-      "num": "3906794966252983",
-      "validity": "true",
+      "num": "3734587719570391",
+      "validity": "Valid",
       "staff": "Longe",
       "id": 12
     },
     {
-      "num": "3562041161878960",
-      "validity": "true",
+      "num": "3524868287925791",
+      "validity": "Valid",
       "staff": "Longe",
       "id": 13
     },
     {
-      "num": "3660188396770618",
-      "validity": "true",
+      "num": "3143308026391288",
+      "validity": "Valid",
       "staff": "Longe",
       "id": 14
     },
     {
-      "num": "3908504701423498",
-      "validity": "true",
+      "num": "3703228025156646",
+      "validity": "Valid",
       "staff": "Longe",
       "id": 15
     },
     {
-      "num": "3928373536197081",
-      "validity": "true",
+      "num": "3056848005710674",
+      "validity": "Valid",
       "staff": "Longe",
       "id": 16
     },
     {
-      "num": "3232847111542281",
-      "validity": "true",
+      "num": "3849557701755412",
+      "validity": "Valid",
       "staff": "Longe",
       "id": 17
     },
     {
-      "num": "3752713470116275",
-      "validity": "true",
+      "num": "3476289582105937",
+      "validity": "Valid",
       "staff": "Longe",
       "id": 18
     },
     {
-      "num": "3878867519944845",
-      "validity": "true",
+      "num": "3978866670651969",
+      "validity": "Invalid",
       "staff": "Longe",
       "id": 19
-    },
-    {
-      "num": "3259848759876608",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 20
-    },
-    {
-      "num": "3194119227842485",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 21
-    },
-    {
-      "num": "3773628076312273",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 22
-    },
-    {
-      "num": "3711595999594353",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 23
-    },
-    {
-      "num": "3487674175536141",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 24
-    },
-    {
-      "num": "3618968629836193",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 25
-    },
-    {
-      "num": "3607103099719960",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 26
-    },
-    {
-      "num": "3992967702314590",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 27
-    },
-    {
-      "num": "3808252977107732",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 28
-    },
-    {
-      "num": "3385113871420873",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 29
-    },
-    {
-      "num": "3324518166456142",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 30
-    },
-    {
-      "num": "3259134538121489",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 31
-    },
-    {
-      "num": "3127835550983074",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 32
-    },
-    {
-      "num": "3008869433926597",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 33
-    },
-    {
-      "num": "3218312570169119",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 34
-    },
-    {
-      "num": "3467048698703973",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 35
-    },
-    {
-      "num": "3587139825191521",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 36
-    },
-    {
-      "num": "3517681571169663",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 37
-    },
-    {
-      "num": "3642718323030661",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 38
-    },
-    {
-      "num": "3904173105646000",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 39
-    },
-    {
-      "num": "3324294744692224",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 40
-    },
-    {
-      "num": "3200111509295999",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 41
-    },
-    {
-      "num": "3288341691339416",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 42
-    },
-    {
-      "num": "3649996797292362",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 43
     }
   ],
   "200": [
     {
-      "num": "3927485008296414",
-      "validity": "true",
+      "num": "3875972928576093",
+      "validity": "Valid",
       "staff": "Longe",
       "id": 1
     },
     {
-      "num": "3812891127510345",
-      "validity": "true",
+      "num": "3414517120492681",
+      "validity": "Valid",
       "staff": "Longe",
       "id": 2
     },
     {
-      "num": "3989928793156205",
-      "validity": "true",
+      "num": "3599268803045356",
+      "validity": "Valid",
       "staff": "Longe",
       "id": 3
     },
     {
-      "num": "3445317795888985",
-      "validity": "true",
+      "num": "3822461804306918",
+      "validity": "Valid",
       "staff": "Longe",
       "id": 4
     },
     {
-      "num": "3058779720083198",
-      "validity": "true",
+      "num": "3508603099082785",
+      "validity": "Valid",
       "staff": "Longe",
       "id": 5
     },
     {
-      "num": "3293017650982408",
-      "validity": "true",
+      "num": "3239260200016828",
+      "validity": "Valid",
       "staff": "Longe",
       "id": 6
     },
     {
-      "num": "3244517042239736",
-      "validity": "true",
+      "num": "3608773209267149",
+      "validity": "Valid",
       "staff": "Longe",
       "id": 7
     },
     {
-      "num": "3145771918179912",
-      "validity": "true",
+      "num": "3353308412800968",
+      "validity": "Valid",
       "staff": "Longe",
       "id": 8
     },
     {
-      "num": "3546073402622622",
-      "validity": "true",
+      "num": "3122820536673961",
+      "validity": "Valid",
       "staff": "Longe",
       "id": 9
     },
     {
-      "num": "3829026527662660",
-      "validity": "true",
+      "num": "3375322308545554",
+      "validity": "Valid",
       "staff": "Longe",
       "id": 10
-    },
-    {
-      "num": "3678231109718891",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 11
-    },
-    {
-      "num": "3178919052440344",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 12
-    },
-    {
-      "num": "3803298722267221",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 13
-    },
-    {
-      "num": "3964569504611806",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 14
-    },
-    {
-      "num": "3653136326220351",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 15
-    },
-    {
-      "num": "3350197555494851",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 16
-    },
-    {
-      "num": "3980034395205961",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 17
-    },
-    {
-      "num": "3150596593807868",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 18
-    },
-    {
-      "num": "3073064362694882",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 19
-    },
-    {
-      "num": "3848722568474590",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 20
-    },
-    {
-      "num": "3292233884913084",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 21
-    },
-    {
-      "num": "3946789028931430",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 22
-    },
-    {
-      "num": "3379493052450184",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 23
-    },
-    {
-      "num": "3147690857886902",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 24
-    },
-    {
-      "num": "3513524046383723",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 25
-    },
-    {
-      "num": "3589762114111491",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 26
-    },
-    {
-      "num": "3715229289780361",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 27
-    },
-    {
-      "num": "3720418744962118",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 28
-    },
-    {
-      "num": "3331025833109767",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 29
-    },
-    {
-      "num": "3122926842372074",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 30
-    },
-    {
-      "num": "3875531634266361",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 31
-    },
-    {
-      "num": "3691185694293877",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 32
-    },
-    {
-      "num": "3943720048486815",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 33
-    },
-    {
-      "num": "3162606091692833",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 34
-    },
-    {
-      "num": "3824844150182232",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 35
-    },
-    {
-      "num": "3622476481230761",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 36
-    },
-    {
-      "num": "3692508815427615",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 37
-    },
-    {
-      "num": "3616683979175992",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 38
-    },
-    {
-      "num": "3575281738793340",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 39
-    },
-    {
-      "num": "3650372330295835",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 40
-    },
-    {
-      "num": "3487412585915376",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 41
-    },
-    {
-      "num": "3174539830938396",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 42
-    },
-    {
-      "num": "3910781618362516",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 43
-    },
-    {
-      "num": "3707672648445094",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 44
-    },
-    {
-      "num": "3241505306833444",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 45
-    },
-    {
-      "num": "3301384490945678",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 46
-    },
-    {
-      "num": "3974788385227657",
-      "validity": "true",
-      "staff": "Longe",
-      "id": 47
     }
   ],
   "400": [
     {
-      "id": "1",
-      "value": "1001345678954",
-      "validity": true,
-      "staff": "Shola"
+      "num": "3006284509385339",
+      "validity": "Valid",
+      "staff": "Longe",
+      "id": 1
     },
     {
-      "num": "3272156757681680",
-      "validity": "true",
+      "num": "3195457574775445",
+      "validity": "Valid",
       "staff": "Longe",
-      "id": "w6cI-kU"
+      "id": 2
     },
     {
-      "num": "3134414572800248",
-      "validity": "true",
+      "num": "3789658027998044",
+      "validity": "Valid",
       "staff": "Longe",
-      "id": "heYHx3J"
+      "id": 3
     },
     {
-      "num": "3814024690491916",
-      "validity": "true",
+      "num": "3031355170337752",
+      "validity": "Valid",
       "staff": "Longe",
-      "id": "18IVwpT"
+      "id": 4
     },
     {
-      "num": "3326525472022689",
-      "validity": "true",
+      "num": "3633480932818629",
+      "validity": "Valid",
       "staff": "Longe",
-      "id": "bdWgIzb"
+      "id": 5
     },
     {
-      "num": "3063934037304495",
-      "validity": "true",
+      "num": "3219195846744166",
+      "validity": "Valid",
       "staff": "Longe",
-      "id": "A5-Ueyc"
+      "id": 6
     },
     {
-      "num": "3322882098527553",
-      "validity": "true",
+      "num": "3820756834181650",
+      "validity": "Valid",
       "staff": "Longe",
-      "id": "Iupfufd"
+      "id": 7
+    },
+    {
+      "num": "3572774608004947",
+      "validity": "Valid",
+      "staff": "Longe",
+      "id": 8
+    },
+    {
+      "num": "3930387920851003",
+      "validity": "Valid",
+      "staff": "Longe",
+      "id": 10
     }
   ],
   "500": [
     {
-      "id": "1",
-      "value": "1003453678954",
-      "validity": true,
-      "staff": "Shola"
+      "num": "3259713185269055",
+      "validity": "Valid",
+      "staff": "Longe",
+      "id": 1
     },
     {
-      "num": "3991344101516674",
-      "validity": "true",
+      "num": "3983450507783487",
+      "validity": "Valid",
       "staff": "Longe",
-      "id": "2UwQsYp"
+      "id": 2
     },
     {
-      "num": "3296785937094054",
-      "validity": "true",
+      "num": "3833789160847244",
+      "validity": "Valid",
       "staff": "Longe",
-      "id": "SXHdzjE"
+      "id": 3
     },
     {
-      "num": "3630138408105331",
-      "validity": "true",
+      "num": "3027996487983106",
+      "validity": "Valid",
       "staff": "Longe",
-      "id": "pATMvHo"
+      "id": 4
     },
     {
-      "num": "3835949806806318",
-      "validity": "true",
+      "num": "3696793481810488",
+      "validity": "Valid",
       "staff": "Longe",
-      "id": "Z-xh1P5"
+      "id": 5
     },
     {
-      "num": "3279631199341993",
-      "validity": "true",
+      "num": "3960202485563569",
+      "validity": "Valid",
       "staff": "Longe",
-      "id": "JypYfxd"
+      "id": 6
     },
     {
-      "num": "3560080845513038",
-      "validity": "true",
+      "num": "3291843062777414",
+      "validity": "Valid",
       "staff": "Longe",
-      "id": "sHjzgu0"
+      "id": 7
     },
     {
-      "num": "3651061883030310",
-      "validity": "true",
+      "num": "3005580871402445",
+      "validity": "Valid",
       "staff": "Longe",
-      "id": "7ywaZOb"
+      "id": 8
     },
     {
-      "num": "3168477795531180",
-      "validity": "true",
+      "num": "3074665832288137",
+      "validity": "Valid",
       "staff": "Longe",
-      "id": "8607J9w"
+      "id": 9
     },
     {
-      "num": "3891648833158982",
-      "validity": "true",
+      "num": "3467162637178894",
+      "validity": "Valid",
       "staff": "Longe",
-      "id": "POf_4Dn"
-    },
-    {
-      "num": "3759497052546555",
-      "validity": "true",
-      "staff": "Longe",
-      "id": "kZ7pJzR"
-    },
-    {
-      "num": "3331777630908594",
-      "validity": "true",
-      "staff": "Longe",
-      "id": "yBS8QZq"
-    },
-    {
-      "num": "3235034088956682",
-      "validity": "true",
-      "staff": "Longe",
-      "id": "0Qg4vje"
-    },
-    {
-      "num": "3268872120843855",
-      "validity": "true",
-      "staff": "Longe",
-      "id": "F-n7X8V"
-    },
-    {
-      "num": "3664397796071256",
-      "validity": "true",
-      "staff": "Longe",
-      "id": "WzBTB7T"
-    },
-    {
-      "num": "3568746471088133",
-      "validity": "true",
-      "staff": "Longe",
-      "id": "kVVicJn"
-    },
-    {
-      "num": "3099568467044519",
-      "validity": "true",
-      "staff": "Longe",
-      "id": "A_CJ-4W"
-    },
-    {
-      "num": "3237949645020203",
-      "validity": "true",
-      "staff": "Longe",
-      "id": "7Foj9sd"
-    },
-    {
-      "num": "3367947328736381",
-      "validity": "true",
-      "staff": "Longe",
-      "id": "scxkUDk"
-    },
-    {
-      "num": "3988955983858400",
-      "validity": "true",
-      "staff": "Longe",
-      "id": "w8znXk5"
-    },
-    {
-      "num": "3151574215927857",
-      "validity": "true",
-      "staff": "Longe",
-      "id": "YRNVj1T"
+      "id": 10
     }
   ],
   "750": [
     {
-      "id": "1",
-      "value": "10012345678954",
-      "validity": true,
-      "staff": "Shola"
+      "num": "3500232123135804",
+      "validity": "Valid",
+      "staff": "Longe",
+      "id": 1
+    },
+    {
+      "num": "3355159363148484",
+      "validity": "Valid",
+      "staff": "Longe",
+      "id": 2
+    },
+    {
+      "num": "3206544152469984",
+      "validity": "Valid",
+      "staff": "Longe",
+      "id": 3
+    },
+    {
+      "num": "3190356179461923",
+      "validity": "Valid",
+      "staff": "Longe",
+      "id": 4
+    },
+    {
+      "num": "3050068382425644",
+      "validity": "Valid",
+      "staff": "Longe",
+      "id": 5
+    },
+    {
+      "num": "3558917248387473",
+      "validity": "Valid",
+      "staff": "Longe",
+      "id": 6
+    },
+    {
+      "num": "3493531106789698",
+      "validity": "Valid",
+      "staff": "Longe",
+      "id": 7
+    },
+    {
+      "num": "3977519159881838",
+      "validity": "Valid",
+      "staff": "Longe",
+      "id": 8
+    },
+    {
+      "num": "3934746792156923",
+      "validity": "Valid",
+      "staff": "Longe",
+      "id": 9
+    },
+    {
+      "num": "3522027202341145",
+      "validity": "Valid",
+      "staff": "Longe",
+      "id": 10
     }
   ],
   "1000": [
     {
-      "id": "1",
-      "value": "1001235678954",
-      "validity": true,
-      "staff": "Shola"
+      "num": "3248982277272446",
+      "validity": "Valid",
+      "staff": "Longe",
+      "id": 1
     },
     {
-      "num": "3124593071534478",
-      "validity": "true",
+      "num": "3252126843042283",
+      "validity": "Valid",
       "staff": "Longe",
-      "id": "2Y7-lXK"
+      "id": 2
     },
     {
-      "num": "3424757279974353",
-      "validity": "true",
+      "num": "3203885252311455",
+      "validity": "Valid",
       "staff": "Longe",
-      "id": "k-rQuhO"
+      "id": 3
     },
     {
-      "num": "3171764295841452",
-      "validity": "true",
+      "num": "3672544214080860",
+      "validity": "Valid",
       "staff": "Longe",
-      "id": "BhZA_Pe"
+      "id": 4
     },
     {
-      "num": "3077942887642003",
-      "validity": "true",
+      "num": "3907560400809683",
+      "validity": "Valid",
       "staff": "Longe",
-      "id": "UkUQE9n"
+      "id": 5
+    },
+    {
+      "num": "3121219679826600",
+      "validity": "Valid",
+      "staff": "Longe",
+      "id": 6
+    },
+    {
+      "num": "3368431807412900",
+      "validity": "Valid",
+      "staff": "Longe",
+      "id": 7
+    },
+    {
+      "num": "3128267931126541",
+      "validity": "Valid",
+      "staff": "Longe",
+      "id": 8
+    },
+    {
+      "num": "3319982838543718",
+      "validity": "Valid",
+      "staff": "Longe",
+      "id": 9
+    },
+    {
+      "num": "3859220465080683",
+      "validity": "Valid",
+      "staff": "Longe",
+      "id": 10
     }
   ],
   "staffID": [
@@ -764,34 +428,10 @@
   ],
   "profile": [
     {
-      "id": "001",
-      "name": "Shola",
-      "email": "shola@gmail.com",
-      "password": "123456"
-    },
-    {
-      "id": "02",
-      "name": "O'Brien Longe",
-      "email": "obrienules@gmail.com",
-      "password": "232"
-    },
-    {
-      "id": "002",
-      "name": "Longe",
-      "email": "obrienules@gmail.com",
-      "password": "hello"
-    },
-    {
       "id": "003",
       "name": "Longe",
       "email": "obrienules@gmail.com",
-      "password": "765"
-    },
-    {
-      "id": "004",
-      "name": "O'Brien Longe",
-      "email": "obrienules@gmail.com",
-      "password": "sddd"
+      "password": "hello"
     }
   ]
 }
