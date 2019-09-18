@@ -77,6 +77,22 @@ footer {
   margin: 5rem auto;
 }
 
+#display-card {
+  overflow: scroll;
+  height: 30rem;
+  padding: 2rem;
+}
+
+/******************Show Page*****************/
+#show-page {
+  width: 70%;
+}
+
+li.list {
+  list-style: none;
+  color: red;
+}
+
 /* Utility */
 .show {
   display: inline-block;
