@@ -93,6 +93,38 @@ li.list {
   color: red;
 }
 
+/*********************views*****************/
+#view-display {
+  color: black;
+  box-sizing: border-box;
+  margin-top: 4rem;
+  width: 30%;
+  border: solid white 2px;
+  border-radius: 10%;
+  height: 25rem;
+  background-color: rgb(226, 226, 36);
+  font-weight: bold;
+  padding: 1rem;
+  padding-left: 3rem;
+}
+
+div#view-display h1 {
+  text-align: center;
+}
+
+#edit-display {
+  box-sizing: border-box;
+  margin-right: 2rem;
+  margin-top: 4rem;
+  border: white solid 2px;
+  height: 25rem;
+  width: 30%;
+  padding: 1rem;
+  border-radius: 10%;
+  color: yellow;
+  font-weight: bold;
+}
+
 /* Utility */
 .show {
   display: inline-block;
