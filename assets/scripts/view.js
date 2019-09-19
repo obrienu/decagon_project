@@ -2,7 +2,7 @@ $(document).ready(function() {
   let link = window.location.href;
   let id = Number(link.substring(link.indexOf('?') + 1, link.lastIndexOf('?')));
   let key = Number(link.substring(link.lastIndexOf('?') + 1, link.length));
-  async function assignShow(id) {
+  async function assignShow(id, key) {
     try {
       result = await $.ajax({
         url: `http://localhost:3000/${key}?id=${id}`,
@@ -25,7 +25,7 @@ $(document).ready(function() {
       console.log(e);
     }
   }
-  assignShow(id);
+  assignShow(id, key);
 
   $('#update').on('submit', e => {
     e.preventDefault();
@@ -72,5 +72,84 @@ $(document).ready(function() {
     let keyVal = $('#drop').val();
     let idVal = $('#id-num').val();
     deleteFun(keyVal, idVal);
+  });
+
+  $('#load').on('click', e => {
+    e.preventDefault();
+    let input = $('#recharge').val();
+    let code = input.slice(0, 2);
+    let key = '';
+    switch (code) {
+      case '31':
+        key = '100';
+        break;
+      case '32':
+        key = '200';
+        break;
+      case '34':
+        key = '400';
+        break;
+      case '35':
+        key = '500';
+        break;
+      case '37':
+        key = '750';
+        break;
+      case '30':
+        key = '1000';
+        break;
+      default:
+        $('#valid-display').text('Invalid Pin');
+        setTimeout(() => {
+          $('#valid-display').text('Enter Recharge Pin');
+        }, 3000);
+        break;
+    }
+    try {
+      $.ajax({
+        url: `http://localhost:3000/${key}?num=${input}`,
+        method: 'GET',
+        async: false,
+        success: res => {
+          if (res.length === 1 && res[0]['validity'] === 'Valid') {
+            let id = res[0]['id'];
+            let num = res[0]['num'];
+            let validity = 'Used';
+            let staff = res[0]['staff'];
+            let data = { num, validity, staff, id };
+            try {
+              result = $.ajax({
+                url: `http://localhost:3000/${key}/${id}`,
+                type: 'PUT',
+                data: data,
+                async: false,
+                success: respomse => {
+                  $('#valid-display').text(`#${key} recharge successful`);
+                  setTimeout(() => {
+                    $('#valid-display').text('Enter Recharge Pin');
+                  }, 3000);
+                }
+              });
+            } catch (error) {
+              console.log(error);
+            }
+          } else if (res.length === 1 && res[0]['validity'] !== 'Valid') {
+            let id = res[0]['id'];
+            assignShow(id, key);
+            $('#valid-display').text('Pin has already been used ');
+            setTimeout(() => {
+              $('#valid-display').text('Enter Recharge Pin');
+            }, 3000);
+          } else {
+            $('#valid-display').text('Invalid Pin');
+            setTimeout(() => {
+              $('#valid-display').text('Enter Recharge Pin');
+            }, 3000);
+          }
+        }
+      });
+    } catch (error) {
+      console.log(error);
+    }
   });
 });
