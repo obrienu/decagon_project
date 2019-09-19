@@ -1,5 +1,13 @@
 body {
   background-color: rgb(226, 226, 25);
+  background-image: linear-gradient(
+    to right top,
+    #cf9c0b,
+    #d2a511,
+    #d5af17,
+    #d8b81e,
+    #dac225
+  );
   color: white;
 }
 #navi {
@@ -68,7 +76,16 @@ footer {
 
 /* ********************Generate Page********************** */
 .generate {
+  padding: 4rem;
   background: rgb(226, 226, 36);
+  background-image: linear-gradient(
+    to right top,
+    #cf9c0b,
+    #d2a511,
+    #d5af17,
+    #d8b81e,
+    #dac225
+  );
   height: 25rem;
   width: 40%;
   border: white solid 2px;
@@ -103,6 +120,14 @@ li.list {
   border-radius: 10%;
   height: 25rem;
   background-color: rgb(226, 226, 36);
+  background-image: linear-gradient(
+    to right top,
+    #cf9c0b,
+    #d2a511,
+    #d5af17,
+    #d8b81e,
+    #dac225
+  );
   font-weight: bold;
   padding: 1rem;
   padding-left: 3rem;
@@ -120,9 +145,37 @@ div#view-display h1 {
   height: 25rem;
   width: 30%;
   padding: 1rem;
+  padding-left: 3rem;
   border-radius: 10%;
-  color: yellow;
+  color: black;
   font-weight: bold;
+  background: white;
+  background-image: linear-gradient(
+    to right top,
+    #cf9c0b,
+    #d2a511,
+    #d5af17,
+    #d8b81e,
+    #dac225
+  );
+}
+/* *********vertical nav******************** */
+#vert-nav {
+  background-color: rgb(226, 226, 25);
+  background-image: linear-gradient(
+    to left bottom,
+    #cf9c0b,
+    #d2a511,
+    #d5af17,
+    #d8b81e,
+    #dac225
+  );
+  font-weight: bold;
+  font-size: 1.2rem;
+  height: 30rem;
+}
+#vert-nav a {
+  border: solid 1px rgba(226, 226, 25, 0.411);
 }
 
 /* Utility */
