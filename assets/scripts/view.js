@@ -61,7 +61,7 @@ $(document).ready(function() {
           url: `http://localhost:3000/${key}/${id}`,
           type: 'DELETE',
           async: false,
-          success: respomse => {
+          success: response => {
             console.log('success');
           }
         });

@@ -66,30 +66,19 @@ $(document).ready(() => {
   /* *******************Handle Sign In************************* */
   $('#sign-in').on('submit', function(e) {
     e.preventDefault();
-
+    let name = $('#sname').val();
+    let id = $('#staff-id2').val();
+    let password = $('#spassword').val();
     $.ajax({
-      url: `http://localhost:3000/profile`,
+      url: `http://localhost:3000/profile?id=${id}&password=${password}`,
       type: 'GET',
       success: function(data) {
-        let name = $('#sname').val();
-        let id = $('#staff-id2').val();
-        let password = $('#spassword').val();
-        for (let i = 0; i < data.length; i++) {
-          console.log(id, name, password);
-          console.log(data[i]['id'], data[i]['name'], data[i]['password']);
-          if (
-            data[i]['id'] === id &&
-            data[i]['name'] === name &&
-            data[i]['password'] === password
-          ) {
-            let userInfo = {
-              id: data[i]['id']
-            };
-            console.log(userInfo);
-            window.location = '/userInterface.html?name=' + name;
-          }
+        console.log(data);
+        if (data.length === 1) {
+          window.location = '/userInterface.html?name=' + name;
+        } else {
+          $('#notice1').html('Invalid Login Credential');
         }
-        $('#notice').html('Invalid Login Credential');
       },
       error: function(e) {
         console.log(e);

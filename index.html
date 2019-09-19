@@ -13,7 +13,7 @@
       href="./bower_components/bootstrap/dist/css/bootstrap.min.css"
     />
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.css" />
-    <title>MTN</title>
+    <title>Recharge Card APP</title>
   </head>
   <body>
     <header>
@@ -47,34 +47,8 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Link</a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link disabled"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-                >Disabled</a
-              >
-            </li>
+            
+            
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <input
@@ -93,20 +67,20 @@
     <main>
       <div class="background" id="bg-img"></div>
       <div class="row showcase">
-        <div class="col-md-8">
+        <div class="col-sm-6 col-lg-8">
           <h1 class="display-3">
             Yello Card Generator and Management APP
           </h1>
         </div>
-        <div class="col-md-4">
-          <div class="row mt-5">
-            <div id="tab-1" class="show-tab col-sm-5 selected">
+        <div class="col-sm-6 col-lg-4">
+          <div class="row justify-content-center mt-5">
+            <div id="tab-1" class="show-tab col-5 selected">
               <h3>Sign Up</h1>
             </div>
-            <div id="tab-2" class="show-tab col-sm-5">
+            <div id="tab-2" class="show-tab col-5">
               <h3>Sign In</h1>
             </div>
-            <div class="col-sm-10 tab-content show" id="tab-1-content">
+            <div class="col-10 col-sm-10 tab-content show" id="tab-1-content">
               <form id="sign-up" >
                 <p id= "notice"></p>
                 <label for="name">Name</label>
@@ -124,6 +98,7 @@
             </div>
             <div class="col-sm-10 tab-content" id="tab-2-content">
                 <form id="sign-in">
+                    <p id= "notice1"></p>
                   <label for="name">Name</label>
                   <input type="text" name="name" placeholder="Firstname" id="sname" class="form-control" required>
                   <label for="staff-id2">Staff ID</label>
