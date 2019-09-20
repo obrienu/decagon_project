@@ -33,7 +33,7 @@ $(document).ready(function() {
     $('#denominaton').text(`#${key}`);
     for (let i = 0; i < data.length; i++) {
       $('#display').prepend(
-        `<div class="col-md-4 col-lg-3" id="section"> <li class="list"><a class="view-card" id="${
+        `<div class="col-sm-6 col-md-4 col-lg-3" id="section"> <li class="list"><a class="view-card" id="${
           data[i]['id']
         }" class="link" href="./view.html?${data[i]['id']}?${key}"> ${
           data[i]['num']

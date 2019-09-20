@@ -1,8 +1,8 @@
 $(document).ready(function() {
   //*********GET USER INFO */
-  let link = window.location.href;
-  link.indexOf('=');
-  let user = link.substring(link.indexOf('=') + 1, link.length);
+
+  let user = window.sessionStorage.getItem('user');
+
   $('#user').attr('value', user);
 
   $('form').on('submit', async function(e) {

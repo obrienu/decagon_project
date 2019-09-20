@@ -58,7 +58,7 @@ $(document).ready(() => {
         }
       },
       error: function(e) {
-        $('#notice').html('Staff ID already registered');
+        $('#notice').html('ID in use or does not exist');
       }
     });
   });
@@ -73,8 +73,9 @@ $(document).ready(() => {
       url: `http://localhost:3000/profile?id=${id}&password=${password}`,
       type: 'GET',
       success: function(data) {
-        console.log(data);
+        console.log(data[0]['name']);
         if (data.length === 1) {
+          window.sessionStorage.setItem('user', data[0]['name']);
           window.location = '/userInterface.html?name=' + name;
         } else {
           $('#notice1').html('Invalid Login Credential');
