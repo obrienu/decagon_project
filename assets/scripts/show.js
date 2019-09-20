@@ -1,4 +1,20 @@
 $(document).ready(function() {
+  if (window.sessionStorage.getItem('user') === null) {
+    window.location = './index.html';
+  }
+
+  let user = window.sessionStorage.getItem('user');
+  $('#welcome').text(user);
+
+  /* ************Log Out functionality************ */
+
+  $('#logout').on('click', () => {
+    window.sessionStorage.removeItem('user');
+    window.location = './index.html';
+  });
+
+  /* *************************************** */
+
   async function show(key, val) {
     let result;
 

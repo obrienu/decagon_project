@@ -1,9 +1,22 @@
 $(document).ready(function() {
-  //*********GET USER INFO */
+  if (window.sessionStorage.getItem('user') === null) {
+    window.location = './index.html';
+  }
 
+  /* ************Assign User name******** */
   let user = window.sessionStorage.getItem('user');
+  $('#welcome').text(user);
 
   $('#user').attr('value', user);
+
+  /* ************Log Out functionality************ */
+
+  $('#logout').on('click', () => {
+    window.sessionStorage.removeItem('user');
+    window.location = './index.html';
+  });
+
+  /* *************************************** */
 
   $('form').on('submit', async function(e) {
     e.preventDefault();
