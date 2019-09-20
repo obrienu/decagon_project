@@ -234,3 +234,7 @@ div#view-display h1 {
 .selected {
   border-bottom: white solid 2px;
 }
+
+#gen-notice {
+  display: none;
+}

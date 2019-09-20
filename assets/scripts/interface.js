@@ -74,5 +74,9 @@ $(document).ready(function() {
     for (let i = 0; i < Number(quantity); i++) {
       generateCard();
     }
+    $('#gen-notice').show();
+    setTimeout(() => {
+      $('#gen-notice').hide();
+    }, 3000);
   });
 });
