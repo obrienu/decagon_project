@@ -43,7 +43,7 @@ $(document).ready(function() {
   }
   assignShow(id, key);
 
-  $('#update').on('submit', e => {
+  $('#update-card').on('click', e => {
     e.preventDefault();
     function update(key, id, body) {
       try {
@@ -53,7 +53,7 @@ $(document).ready(function() {
           data: body,
           async: false,
           success: respomse => {
-            console.log('success');
+            window.location = `./view.html?${id}?${key}`;
           }
         });
       } catch (error) {
@@ -61,10 +61,10 @@ $(document).ready(function() {
       }
     }
     let num = $('#num').val(),
-      // denom = $('#drop').val(),
+      key = $('#drop').val(),
       staff = $('#staff').val(),
       validity = $('#validity').val();
-    // id = Number($('#id-num').val());
+    id = Number($('#id-num').val());
 
     let body = { num, validity, staff, id };
     update(key, id, body);
@@ -140,6 +140,7 @@ $(document).ready(function() {
                 data: data,
                 async: false,
                 success: respomse => {
+                  window.location = `./view.html?${id}?${key}`;
                   $('#valid-display').text(`#${key} recharge successful`);
                   setTimeout(() => {
                     $('#valid-display').text('Enter Recharge Pin');
